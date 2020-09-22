@@ -1,0 +1,65 @@
+.characters h1:hover, .middle-earth h1, .middle-earth h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.characters {
+  background-color: tan;
+}
+
+.characters h1 {
+  color: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.characters h1:hover {
+  text-decoration: underline;
+}
+
+.characters h2 {
+  background-color: #964b00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.characters h3 {
+  color: #964b00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle-earth {
+  background-color: silver;
+}
+
+.middle-earth h1 {
+  text-decoration: underline;
+  margin-bottom: calc(25px*4);
+}
+
+.middle-earth h2 {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=main.css.map */
